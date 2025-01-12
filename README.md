@@ -138,7 +138,7 @@ chat-code-interpreter/
 ├── Dockerfile                 # Docker configuration to containerize the app.
 ├── requirements.txt           # Python dependencies.
 ├── README.md                  # Project documentation.
-└── data/                      # Directory for storing uploaded CSV files (if applicable).
+└── sample.csv/                # Sample CSV file.
 ```
 
 ### Folder Explanation:
@@ -147,6 +147,5 @@ chat-code-interpreter/
 - **`Dockerfile`**: Contains the instructions to build the Docker image for this application.
 - **`requirements.txt`**: Lists the Python packages required to run the application.
 - **`README.md`**: Documentation for setting up and using the project.
-- **`data/`** (Optional): This folder can be used to store uploaded CSV files during the app's operation, though this is not strictly necessary if files are processed directly from the user upload.
 
 
