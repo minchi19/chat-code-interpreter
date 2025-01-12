@@ -54,7 +54,7 @@ async def process_query(user_message):
         )
 
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",  # or "gpt-4" if required
+            model="gpt-3.5-turbo",  
             messages=[{"role": "user", "content": prompt}],
             temperature=0,
         )
