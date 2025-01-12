@@ -148,4 +148,7 @@ chat-code-interpreter/
 - **`requirements.txt`**: Lists the Python packages required to run the application.
 - **`README.md`**: Documentation for setting up and using the project.
 
+### Example
+<img width="883" alt="image" src="https://github.com/user-attachments/assets/2c89900e-5cf4-48f5-866c-5cf02db4f981" />
+<img width="940" alt="image" src="https://github.com/user-attachments/assets/0047f7bf-876b-4ebb-8afa-dc0485fd19c8" />
 
