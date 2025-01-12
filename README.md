@@ -128,17 +128,25 @@ To containerize this application, a `Dockerfile` is included in the repository. 
 
 The Docker container exposes the app on port `8000` by default. When running the container, the `OPENAI_API_KEY` must be provided as an environment variable.
 
-Folder Structure
 
+## Folder Structure
+
+```
 chat-code-interpreter/
 │
 ├── app.py                     # Main Chainlit app file to handle user interactions.
 ├── Dockerfile                 # Docker configuration to containerize the app.
 ├── requirements.txt           # Python dependencies.
 ├── README.md                  # Project documentation.
-└── sample_data.csv            # Sample CSV file.
-Folder Explanation:
-app.py: The main script for running the Chainlit application. This file handles user interactions, including file uploads and processing of queries.
-Dockerfile: Contains the instructions to build the Docker image for this application.
-requirements.txt: Lists the Python packages required to run the application.
-README.md: Documentation for setting up and using the project.
+└── data/                      # Directory for storing uploaded CSV files (if applicable).
+```
+
+### Folder Explanation:
+
+- **`app.py`**: The main script for running the Chainlit application. This file handles user interactions, including file uploads and processing of queries.
+- **`Dockerfile`**: Contains the instructions to build the Docker image for this application.
+- **`requirements.txt`**: Lists the Python packages required to run the application.
+- **`README.md`**: Documentation for setting up and using the project.
+- **`data/`** (Optional): This folder can be used to store uploaded CSV files during the app's operation, though this is not strictly necessary if files are processed directly from the user upload.
+
+
